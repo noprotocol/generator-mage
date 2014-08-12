@@ -1,0 +1,6 @@
+{
+  "db" : "mongodb://localhost/development-db",
+  "app": {
+    "name": "Development API"
+  }
+}

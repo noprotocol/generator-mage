@@ -1,0 +1,7 @@
+{
+  "db" : "mongodb://localhost/test-db",
+  "port": 3001,
+  "app": {
+    "name": "Test API"
+  }
+}

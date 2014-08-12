@@ -1,0 +1,11 @@
+{
+  "name": "generator-mage",
+  "description": "Run MongoDB, Angular, Gulp and Express. Both client and API, or just one of the two.",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0"
+  }
+}
