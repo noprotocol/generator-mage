@@ -6,6 +6,12 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "yeoman-generator": "~0.24.1"
-  }
+    "yeoman-generator": "~2.0.5",
+    "snyk": "^1.147.4"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
